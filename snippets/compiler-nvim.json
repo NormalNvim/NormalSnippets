@@ -1,7 +1,7 @@
 {
     "compiler-nvim-solution-toml": {
         "prefix": "compiler-nvim-solution-toml",
-        "description": ".solution.toml template for compiler.nvim",
+        "description": "Template for your compiler.nvim `.solution.toml` file.",
         "body": [
             "[${2:AnyNameYouWant}]",
             "entry_point = \"${3:./main.c}\"",
