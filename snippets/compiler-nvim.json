@@ -8,7 +8,7 @@
             "output = \"${4:./bin/myprogram}\"",
             "",
             "[SOLUTION]",
-            "executable = \"${5:./bin/myprogram}\""
+            "executable = \"${5:./bin/myprogram}\"$0"
         ]
     }
 }
