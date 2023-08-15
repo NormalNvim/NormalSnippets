@@ -1,0 +1,14 @@
+{
+    "compiler-nvim-solution-toml": {
+        "prefix": "compiler-nvim-solution-toml",
+        "description": ".solution.toml template for compiler.nvim",
+        "body": [
+            "[${2:AnyNameYouWant}]",
+            "entry_point = \"${3:./main.c}\"",
+            "output = \"${4:./bin/myprogram}\"",
+            "",
+            "[SOLUTION]",
+            "executable = \"${5:./bin/myprogram}\""
+        ]
+    }
+}
